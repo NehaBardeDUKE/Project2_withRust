@@ -1,6 +1,1 @@
-# rust-new-project-template
-A good starting point for a new Rust project
-
-## References
-
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+![image](https://user-images.githubusercontent.com/110474064/218876171-01977739-22a7-4375-92ab-eae704cb34c1.png)
