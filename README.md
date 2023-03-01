@@ -29,6 +29,8 @@ For the rust deployment i used the same pre-trained resnet18 model but didnot fi
 
 There is however a problem when the docker image gets built. The shared libtorch file apprears to be missing. Once i am able to fix this, the rust app as well can be deployed on AWS.
 
-bash'''
+Error:
+
 @NehaBardeDUKE ➜ /workspaces/Project2_withRust/imageclass (main) $ docker run -it --rm -p 8080:8080 imageclass
+
 imageclass: error while loading shared libraries: libtorch_cpu.so: cannot open shared object file: No such file or directory
