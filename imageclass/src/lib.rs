@@ -8,7 +8,7 @@ use tch::vision::{imagenet, resnet};
 
 //create a const for the model and image
 const MODEL: &str = "resnet18.ot";
-const IMAGE: &str = "1.jpg";
+const IMAGE: &str = "ABD_AAG_000720-001.jpg";
 
 pub fn predict() -> Result<()> {
     let weights = std::path::Path::new(MODEL);
