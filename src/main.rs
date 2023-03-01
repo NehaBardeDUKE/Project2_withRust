@@ -24,7 +24,7 @@ fn main() {
     let args = Cli::parse();
     match args.command {
         Some(Commands::Infer {}) => {
-            let result = onnx_demo::run();
+            let result = Project2_withRust::run();
             //format result using non-standarf formatting
             println!("{:#?}", result);
         }
