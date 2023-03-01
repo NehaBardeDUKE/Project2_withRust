@@ -17,12 +17,11 @@ async fn predictit() -> impl Responder {
     println!("Creating PyTorch predict");
     //run the predict function from lib.rs
     let prediction = predict();
-    //if the prediction is ok return the "yes" string
     if prediction.is_ok() {
-        HttpResponse::Ok().body("Yes")
+        HttpResponse::Ok().body("Prediction sent to console")
     } else {
-        //if the prediction is not ok return the "no" string
-        HttpResponse::Ok().body("No")
+        
+        HttpResponse::Ok().body("Something went wrong")
     }
 }
 
