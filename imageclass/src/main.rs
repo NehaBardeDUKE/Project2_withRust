@@ -2,7 +2,7 @@
 
 use actix_web::{get, App, HttpResponse, HttpServer, Responder};
 //import the random fruit function from the lib.rs file
-use actixtorch::predict;
+use imageclass::predict;
 
 //create a function that returns a hello world
 #[get("/")]
